@@ -1,0 +1,8 @@
+.idea/
+.idea/*
+.idea/**
+
+/AtlyssCharacterMenuPlus/bin
+/AtlyssCharacterMenuPlus/obj
+
+AtlyssCharacterMenuPlus.sln.DotSettings.user
