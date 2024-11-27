@@ -68,7 +68,7 @@ namespace AtlyssCharacterMenuPlus
 
              Button leftSliderButtonComponent = leftSliderButton.GetComponent<Button>();
              leftSliderButtonComponent.onClick = new Button.ButtonClickedEvent();
-             leftSliderButtonComponent.onClick.AddListener(delegate { slider.value += slider.wholeNumbers ? 1f : (slider.maxValue - slider.minValue) * 0.05f; });
+             leftSliderButtonComponent.onClick.AddListener(delegate { slider.value += slider.wholeNumbers ? 1f : (slider.maxValue - slider.minValue) * 0.0025f; });
 
              GameObject rightSliderButton = Object.Instantiate(referenceRightButton!, slider.transform.parent, true);
 
@@ -77,7 +77,7 @@ namespace AtlyssCharacterMenuPlus
 
              Button rightSliderButtonComponent = rightSliderButton.GetComponent<Button>();
              rightSliderButtonComponent.onClick = new Button.ButtonClickedEvent();
-             rightSliderButtonComponent.onClick.AddListener(delegate { slider.value -= slider.wholeNumbers ? 1f : (slider.maxValue - slider.minValue) * 0.05f; });
+             rightSliderButtonComponent.onClick.AddListener(delegate { slider.value -= slider.wholeNumbers ? 1f : (slider.maxValue - slider.minValue) * 0.0025f; });
              
              return;
 
