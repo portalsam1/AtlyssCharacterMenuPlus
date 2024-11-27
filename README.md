@@ -1,5 +1,12 @@
 # AtlyssCharacterMenuPlus
 
+## Install
+[Install BepInEx](https://docs.bepinex.dev/articles/user_guide/installation/index.html) and place the .dll file into the BepInEx/plugins folder. You may need to create this folder if it does not already exist.
+<br/><br/>
+![CharacterMenuPlus](https://github.com/user-attachments/assets/89024ad1-5f61-4d0a-b092-389ee8b05370)
+
+
+## Showcase
 This plugin adds new text labels and buttons underneath the character creation sliders to show the slider values and adjust them precisely.
 
 <p float="left">
