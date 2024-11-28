@@ -1,5 +1,8 @@
 # AtlyssCharacterMenuPlus
 
+## Where is the .DLL?
+The [Releases](https://github.com/portalsam1/AtlyssCharacterMenuPlus/releases) tab, it's on the right with the green text that says "Latest".
+
 ## Install
 [Install BepInEx](https://docs.bepinex.dev/articles/user_guide/installation/index.html) and place the .dll file into the BepInEx/plugins folder. You may need to create this folder if it does not already exist.
 <br/><br/>
