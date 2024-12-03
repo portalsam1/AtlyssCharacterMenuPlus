@@ -22,6 +22,7 @@ namespace AtlyssCharacterMenuPlus
             Instance = this;
             Logger = base.Logger;
             
+            Configuration.BindConfiguration();
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
             
             Logger.LogInfo("CharacterMenuPlus has been initialized!");
