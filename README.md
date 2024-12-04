@@ -1,4 +1,5 @@
 # AtlyssCharacterMenuPlus
+[Thunderstore Link](https://thunderstore.io/c/atlyss/p/portalsam/AtlyssCharacterMenuPlus/)
 
 ## Where is the .DLL?
 The [Releases](https://github.com/portalsam1/AtlyssCharacterMenuPlus/releases) tab, it's on the right with the green text that says "Latest".
