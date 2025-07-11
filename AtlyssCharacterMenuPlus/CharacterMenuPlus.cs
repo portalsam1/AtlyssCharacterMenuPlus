@@ -9,7 +9,7 @@ namespace AtlyssCharacterMenuPlus
 {
     
     [SuppressMessage("ReSharper", "UnusedMember.Local")] [SuppressMessage("ReSharper", "UnusedType.Global")]
-    [BepInPlugin("net.portalsam.AtlyssCharacterMenuPlus", "CharacterMenuPlus", "1.0.5.0")]
+    [BepInPlugin("net.portalsam.AtlyssCharacterMenuPlus", "CharacterMenuPlus", "1.1.0.0")]
     [BepInProcess("ATLYSS.exe")]
     public class CharacterMenuPlus : BaseUnityPlugin
     {

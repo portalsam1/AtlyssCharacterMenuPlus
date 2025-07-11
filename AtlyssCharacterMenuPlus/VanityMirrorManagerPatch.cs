@@ -18,19 +18,19 @@ namespace AtlyssCharacterMenuPlus
         private static void Postfix()
         {
             
-            referenceText = GameObject.Find("_GameUI_InGame/Canvas_DialogSystem/_dolly_vanityMirrorBox/_customizer_head/_dolly_headCustomizer/_characterSlider_headWidth/_tag");
-            referenceLeftButton = GameObject.Find("_GameUI_InGame/Canvas_DialogSystem/_dolly_vanityMirrorBox/_customizer_head/_dolly_headCustomizer/_characterButtons_hairStyle/_button_leftSelect");
-            referenceRightButton = GameObject.Find("_GameUI_InGame/Canvas_DialogSystem/_dolly_vanityMirrorBox/_customizer_head/_dolly_headCustomizer/_characterButtons_hairStyle/_button_rightSelect");
-
-            headWidthSlider = GameObject.Find("_GameUI_InGame/Canvas_DialogSystem/_dolly_vanityMirrorBox/_customizer_head/_dolly_headCustomizer/_characterSlider_headWidth/Slider").GetComponent<Slider>();
-            modifySlider = GameObject.Find("_GameUI_InGame/Canvas_DialogSystem/_dolly_vanityMirrorBox/_customizer_head/_dolly_headCustomizer/_characterSlider_headMod/Slider").GetComponent<Slider>();
-            voicePitchSlider = GameObject.Find("_GameUI_InGame/Canvas_DialogSystem/_dolly_vanityMirrorBox/_customizer_head/_dolly_headCustomizer/_characterSlider_voicePitch/Slider").GetComponent<Slider>();
-            heightSlider = GameObject.Find("_GameUI_InGame/Canvas_DialogSystem/_dolly_vanityMirrorBox/_customizer_body/_dolly_bodyCustomizer/_characterSlider_height/Slider_height").GetComponent<Slider>();
-            widthSlider = GameObject.Find("_GameUI_InGame/Canvas_DialogSystem/_dolly_vanityMirrorBox/_customizer_body/_dolly_bodyCustomizer/_characterSlider_width/Slider_width").GetComponent<Slider>();
-            chestSlider = GameObject.Find("_GameUI_InGame/Canvas_DialogSystem/_dolly_vanityMirrorBox/_customizer_body/_dolly_bodyCustomizer/_characterSlider_chest/Slider_chest").GetComponent<Slider>();
-            armsSlider = GameObject.Find("_GameUI_InGame/Canvas_DialogSystem/_dolly_vanityMirrorBox/_customizer_body/_dolly_bodyCustomizer/_characterSlider_arms/Slider_arms").GetComponent<Slider>();
-            bellySlider = GameObject.Find("_GameUI_InGame/Canvas_DialogSystem/_dolly_vanityMirrorBox/_customizer_body/_dolly_bodyCustomizer/_characterSlider_belly/Slider_belly").GetComponent<Slider>();
-            bottomSlider = GameObject.Find("_GameUI_InGame/Canvas_DialogSystem/_dolly_vanityMirrorBox/_customizer_body/_dolly_bodyCustomizer/_characterSlider_bottom/Slider_bottom").GetComponent<Slider>();
+            referenceText = GameObject.Find("_GameUI_InGame/Canvas_DialogSystem/_dolly_vanityMirrorBox_00/_customizer_head/_dolly_headCustomizer/_characterSlider_headWidth/_tag");
+            referenceLeftButton = GameObject.Find("_GameUI_InGame/Canvas_DialogSystem/_dolly_vanityMirrorBox_00/_customizer_head/_dolly_headCustomizer/_characterButtons_hairStyle/_button_leftSelect");
+            referenceRightButton = GameObject.Find("_GameUI_InGame/Canvas_DialogSystem/_dolly_vanityMirrorBox_00/_customizer_head/_dolly_headCustomizer/_characterButtons_hairStyle/_button_rightSelect");
+            
+            headWidthSlider = GameObject.Find("_GameUI_InGame/Canvas_DialogSystem/_dolly_vanityMirrorBox_00/_customizer_head/_dolly_headCustomizer/_characterSlider_headWidth/Slider").GetComponent<Slider>();
+            modifySlider = GameObject.Find("_GameUI_InGame/Canvas_DialogSystem/_dolly_vanityMirrorBox_00/_customizer_head/_dolly_headCustomizer/_characterSlider_headMod/Slider").GetComponent<Slider>();
+            voicePitchSlider = GameObject.Find("_GameUI_InGame/Canvas_DialogSystem/_dolly_vanityMirrorBox_00/_customizer_head/_dolly_headCustomizer/_characterSlider_voicePitch/Slider").GetComponent<Slider>();
+            heightSlider = GameObject.Find("_GameUI_InGame/Canvas_DialogSystem/_dolly_vanityMirrorBox_00/_customizer_body/_dolly_bodyCustomizer/_characterSlider_height/Slider_height").GetComponent<Slider>();
+            widthSlider = GameObject.Find("_GameUI_InGame/Canvas_DialogSystem/_dolly_vanityMirrorBox_00/_customizer_body/_dolly_bodyCustomizer/_characterSlider_width/Slider_width").GetComponent<Slider>();
+            chestSlider = GameObject.Find("_GameUI_InGame/Canvas_DialogSystem/_dolly_vanityMirrorBox_00/_customizer_body/_dolly_bodyCustomizer/_characterSlider_chest/Slider_chest").GetComponent<Slider>();
+            armsSlider = GameObject.Find("_GameUI_InGame/Canvas_DialogSystem/_dolly_vanityMirrorBox_00/_customizer_body/_dolly_bodyCustomizer/_characterSlider_arms/Slider_arms").GetComponent<Slider>();
+            bellySlider = GameObject.Find("_GameUI_InGame/Canvas_DialogSystem/_dolly_vanityMirrorBox_00/_customizer_body/_dolly_bodyCustomizer/_characterSlider_belly/Slider_belly").GetComponent<Slider>();
+            bottomSlider = GameObject.Find("_GameUI_InGame/Canvas_DialogSystem/_dolly_vanityMirrorBox_00/_customizer_body/_dolly_bodyCustomizer/_characterSlider_bottom/Slider_bottom").GetComponent<Slider>();
             
             SetupSliderTextAndButtons(headWidthSlider);
             SetupSliderTextAndButtons(modifySlider);
